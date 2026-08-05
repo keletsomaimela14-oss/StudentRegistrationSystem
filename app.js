@@ -1,3 +1,4 @@
+
 /* ============================================
    Registrar's Ledger — application logic
    ============================================ */
@@ -310,3 +311,4 @@ rosterBody.addEventListener('click', evt => {
 // ---- init ----
 renderAll();
 updateCardPreview();
+
