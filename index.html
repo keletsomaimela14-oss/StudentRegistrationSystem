@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Student Registration System</h1>
+
+        <form id="registrationForm">
+            <label for="studentNumber">Student Number</label>
+            <input id="studentNumber" type="text" required>
+
+            <label for="studentName">Student Name</label>
+            <input id="studentName" type="text" required>
+
+            <label for="studentEmail">Student Email</label>
+            <input id="studentEmail" type="email" required>
+
+            <label for="module">Module</label>
+            <select id="module" required>
+                <option value="">Select a module</option>
+                <option value="ISDP371">ISDP371</option>
+                <option value="RES372">RES372</option>
+                <option value="INF372">INF372</option>
+            </select>
+
+            <button type="submit">Register Student</button>
+        </form>
+
+        <p id="message" role="status"></p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
