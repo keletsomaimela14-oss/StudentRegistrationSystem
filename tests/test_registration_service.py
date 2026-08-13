@@ -50,4 +50,4 @@ def test_tc08_input_is_trimmed():
     result = register_student(
         " 21001621 ", " James Williams ", " student@example.com ", " ISDP371 ",
     )
-    assert result == "James Williams (21001621) registered for ISDP371."\
+    assert result == "James Williams (21001621) registered for ISDP371."
